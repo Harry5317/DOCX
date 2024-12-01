@@ -1,0 +1,144 @@
+Airport Management System Requirement Document - AirSyncHK
+
+Introduction
+
+Purpose
+	This document aims to specify the requirements in developing an efficient operational system that automates processes of flight scheduling, baggage handling, improving safety standards and security through robust monitoring and maintenance, and elevating the staff's experience with user-friendly interfaces and real-time information.
+
+Scope
+	Key functionalities include flight scheduling, baggage tracking, runway management, data analytics, alerts, lost and found, and account management. The proposed system will integrate with existing external systems such as air traffic control and weather services while providing real-time data analytics and reporting capabilities. The project  will be an internal web service for airport management.
+	
+Overview
+	AirSyncHK seeks to create a thorough solution that promotes efficiency, safety and passenger satisfaction while aligning the airport for future growth.
+
+Functional Requirements
+
+Flight Scheduling and Tracking:
+Description: Allow user to create, update and track flight schedules
+Input Data: 
+Flight Number: Alphanumeric code
+Departure Time: UTC Date and Time format
+Arrival Time: UTC Date and Time format
+Airline Code: IATA code 
+Source: User input via administrative interface/integration with existing airline databases
+Units of Measure: Time in hours and minutes
+Valid Input Range: Must be a future date and/or time, entries must be in 24-hour format.
+
+
+Baggage Tracking:
+Description: Allow crew to track baggage in real-time
+Input Data:
+Baggage Tag Number: Distinct identifier for each baggage
+Flight Number: Alphanumeric
+Source: Scan input at check-in and tracking updates from baggage handlers
+Units of Measure: None
+Valid Input Range: Match existing baggage tag numbers in that database
+
+Runway Management:
+Description: Manage runway allocation and monitor status 
+Input Data:
+Runway ID: Unique identifier
+Status: Operational status based on Runway Condition Matrix
+Availability: Indicate the operational status
+Maintenance Schedule: Date and Time for maintenance activities
+Source: User Input and automated updates based on sensors
+Units of Measure: Time and hours and minutes for maintenance
+Valid Input Range: 
+Status: Integer numbers from 0-6 to indicate the different conditions
+Status: 3 allowed values - open, closed, maintenance
+
+Data Analytics and Reporting:
+Description: Generate reports on key performance indicators (KPIs) such as passenger flow and flight delays 
+Input Data:
+Date Range: Start and end date for report generation
+Report Type: Type of report
+Source: User input via reporting interface
+Units of Measure: 
+Time: hours for delays
+Passenger Count: Integer value
+Valid Input Range: Start date must be before end date; report types must be pre-defined in system
+
+Notices and Alerts:
+Description: Update relevant personnel regarding flight changes, runway status and notice with alerts
+Input Data:
+Alert Type: Specify the type of alert 
+Recipient List: Indicate the list/category of staff who will receive specific alerts (email/phone)
+Source: Integrate with other systems to that will trigger real-time changes in events
+Valid Input Range: 
+Alert type: match a set of predefined categories
+Recipient list: valid and updated contact information
+
+Lost and Found:
+Description: Allow customer service staff to report and update lost and found items.
+Input Data:
+Item Name of lost or found
+Date of report
+Contect Number/ Method
+Picture of Item(If Found)
+
+Account Management:
+Description: Allow admin to modify account information
+Input Data:
+Choice of Create/ Delete/ Update Account
+Account Login Name
+Account Login Password
+
+
+Non-Functional Requirements:
+
+Security:
+Requirement: System shall implement role-based access control to ensure that only authorized personnel can access certain aspects of the system that may contain sensitive data and perform critical operations without error
+Details: All data transmissions must be encrypted using industry-standard protocols
+
+Reliability:
+Requirement: System will maintain an uptime of 99.9% to ensure seamless and continuous operation without obstruction during airport hours.
+Details: System should be integrated with recovery mechanism to handle hardware/software failures without significant downtime
+
+Performance:
+Requirement: System processes user requests and provides responses within 2 seconds during peak usage times.
+Details: support at least 1,000 concurrent users. Use the following formula to derive the Peak Concurrent users as, Peak Concurrent Users = Total Users x Average Activity Rate
+
+Scalability: 
+Requirement: System designed to scale horizontally to accommodate growing passenger volumes and additional functionalities
+Details: Support the addition of new modules and/or database without mass architectural changes
+
+Data Integrity:
+Requirement: System ensures data integrity through validation rules and regular checks to avoid data corruption or loss.
+Details: Data entries must be validated against predefined formats, and backup processes must occur at regular intervals
+
+Portability:
+Requirement: System shall comply with multiple operating systems and devices, including desktops, tablets, and smartphones.
+Details: User manuals must be documented and readily available to support onboarding
+
+Maintainability: 
+Requirement: System is designed for easy maintenance, allowing updates and bug fixes to be implemented without significant downtime
+Details: Code includes sufficient documentation to facilitate future enhancements
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Appendix:
+
+Runway Condition Codes (RCC). (2024, August 6). SKYbrary Aviation Safety. https://skybrary.aero/articles/runway-condition-codes-rcc#:~:text=Within%20the%20RCAM%2C%20Runway%20Condition,are%20indicated%20by%20a%203.
+
+
+
+
+
+
+
