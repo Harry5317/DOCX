@@ -1,0 +1,61 @@
+Safety Management Systems - oversee safety, including rules, procedures, accountability, and organizational structures. Introduced by the International Civil Aviation Organization (ICAO) in 2006. 
+https://www.linkedin.com/pulse/airport-safety-management-systems-compliance-dr-sasidharan-murugan-1zuuc/
+
+
+Airport Standards:
+
+https://www.cad.gov.hk/reports/an2018-2019/html/en/ch8.html
+Airport Standards Division (ASD) provides the functions that respect airport safety, aviation security, management of hindrances and safety in transportation of dangerous goods by air.
+Airport Authority of Hong Kong AAHK - granted an aerodrome license by CAD to operate HKIA.
+APSD - exercises oversight on the performance of AAHK to ensure it’s compliance with aerodrome licensing requirements
+APSD participates in the ICAO AVSECP Meeting that identifies and examines new and emerging threats against civil aviation. 
+
+
+Security Standards for AirSyncHK [Use airport standards]
+
+International Standards:
+ISO/IEC 27001 [https://www.iso.org/standard/27001]
+information security management systems. Defines requirements as ISMS must meet.
+Provides companies with guidance for establishing, implementing, maintaining and improving an information security management system. 
+Ensures organization/business complies to manage risks related to security of data owned or handled by the company, and ensures that the system respects all the practices and principles enshrined by the standard. 
+ISO 31000 [https://www.iso.org/iso-31000-risk-management.html]
+Provides risk management principles, a framework and process of managing risk. 
+Increases the likelihood of achieving objectives, improves identification of opportunities and threats and effectively and allocate and use resources for risk treatment.
+
+
+
+
+Aviation-Specific Standards:
+ICAO Annex 17 [https://applications.icao.int/postalhistory/annex_17_security_safeguarding_international_civil_aviation_against_acts_of_unlawful_interference.htm#:~:text=As%20expressed%20in%20Annex%2017,from%20a%20secure%20supply%20chain.]
+Security provisions applied to all cargo and mail before being loaded on aircraft, preventing introduction of explosives. Achieved through physical screening or ensuring that cargo originates from a secure supply chain.
+TSA Security Directives: 
+Standards and regulations established by Transportation Security Administration in US for airport security
+
+Data Protection Standards:
+GDPR: General Data Protection Regulation for handling of personal data of EU citizens
+PCI DSS: Payment Card Industry Data Security Standard for systems that handle payment transactions.
+
+Security Protocols:
+
+Access Control: 
+Role-Based Access Control (RBAC): Implement RBAC to restrict access based on user roles and responsibilities
+Multi-Factor Authentication: Require multiple forms of verification to access sensitive systems or data
+
+
+
+Security requirements for AirSyncHK:
+HKIA follows the International Civil Aviation Organization’s (ICAO) standards, particularly Annex 17, to safeguard civil aviation against unlawful practices.
+HKIA adheres to the measures established by the International Air Transport Association (IATA) Security Manual for the enhancement of security and passenger handling. 
+Hong Kong Civil Aviation Department (CAD) provides measures for operational safety and security
+HKIA adheres to Personal Data (Privacy) Ordinance (PDPO) for protecting passenger’s sensitive data and complies with PCI DSS for secure payment processing.
+The airport security program encompasses security measures, procedures, and responsibilities aligned with both international and national regulations 
+HKIA follows local occupational safety and health regulations to ensure a safe working environment for employees and contractors
+The airport commits to ISO 14001 standards for environmental management, focusing on minimizing environmental impact
+
+1. ICAO and IATA Standards Compliance: AirSyncHK will adhere to the security standards set by the International Civil Aviation Organization (ICAO), including Annex 17, and follow best practices outlined in the International Air Transport Association (IATA) Security Manual to ensure the safety of civil aviation operations.
+2. Local Regulatory Adherence: The application will comply with regulations established by the Hong Kong Civil Aviation Department (CAD), ensuring operational safety and security in alignment with local laws.
+3. Data Protection and Security: AirSyncHK will implement robust data protection measures in accordance with the Personal Data (Privacy) Ordinance (PDPO) and Payment Card Industry Data Security Standards (PCI DSS) to safeguard passenger information and secure payment transactions.
+4. Comprehensive Security Program: The application will incorporate an Airport Security Program (ASP) that details security measures, procedures, and responsibilities, ensuring compliance with both international and national regulations.
+5. User Safety Features: AirSyncHK includes a dedicated feature for passengers to report lost and found items, enhancing the overall passenger experience while ensuring the proper handling of such incidents in line with security protocols.
+6. Occupational Safety and Environmental Standards: The application will support compliance with local occupational safety regulations and adhere to ISO 14001 standards for environmental management, promoting a safe and sustainable airport environment.
+
